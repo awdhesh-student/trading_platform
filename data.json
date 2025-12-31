@@ -1,0 +1,132 @@
+{
+   "trending": [
+      {
+         "id": "ducky",
+         "name": "Ducky",
+         "symbol": "Ducky",
+         "image": "/ducky.png",
+         "price": 0.000012,
+         "priceChange": 4.21,
+         "marketCap": 9640,
+         "marketCapChange": -57.6,
+         "liquidity": "12.3K",
+         "volume": "8.04K",
+         "txns": 83,
+         "buys": 40,
+         "sells": 43,
+         "age": "10m",
+         "holders": 73,
+         "top10": 45,
+         "security": {
+            "noMint": true,
+            "hasBlacklist": false,
+            "isBurnt": true,
+            "top10Percentage": 23.41,
+            "devPercentage": 0
+         }
+      },
+      {
+         "id": "dino",
+         "name": "DINO",
+         "symbol": "DINO By Jaso...",
+         "image": "/dino.png",
+         "price": 0.0054,
+         "priceChange": 12.5,
+         "marketCap": 115000,
+         "marketCapChange": 6.177,
+         "liquidity": "32K",
+         "volume": "5.38K",
+         "txns": 79,
+         "buys": 48,
+         "sells": 31,
+         "age": "40m",
+         "holders": 610,
+         "top10": 198,
+         "security": {
+            "noMint": true,
+            "hasBlacklist": true,
+            "isBurnt": true,
+            "top10Percentage": 22.4,
+            "devPercentage": 5.35
+         }
+      },
+      {
+         "id": "singularity",
+         "name": "S-IO",
+         "symbol": "Singularity.io",
+         "image": "/sio.png",
+         "price": 0.0012,
+         "priceChange": -2.3,
+         "marketCap": 15200,
+         "marketCapChange": -26,
+         "liquidity": "11.7K",
+         "volume": "5.53K",
+         "txns": 75,
+         "buys": 44,
+         "sells": 31,
+         "age": "1mo",
+         "holders": 151,
+         "top10": 36,
+         "security": {
+            "noMint": true,
+            "hasBlacklist": false,
+            "isBurnt": true,
+            "top10Percentage": 29.13,
+            "devPercentage": 2.37
+         }
+      },
+      {
+         "id": "crocky",
+         "name": "Crocky",
+         "symbol": "Crocky",
+         "image": "/crocky.png",
+         "price": 0.00009,
+         "priceChange": -5.1,
+         "marketCap": 10300,
+         "marketCapChange": -19.1,
+         "liquidity": "12.9K",
+         "volume": "4.46K",
+         "txns": 72,
+         "buys": 38,
+         "sells": 34,
+         "age": "4m",
+         "holders": 124,
+         "top10": 76,
+         "security": {
+            "noMint": true,
+            "hasBlacklist": false,
+            "isBurnt": true,
+            "top10Percentage": 20.12,
+            "devPercentage": 0.04
+         }
+      },
+      {
+         "id": "ducky2",
+         "name": "DUCKY",
+         "symbol": "Ducky",
+         "image": "/ducky2.png",
+         "price": 0.00032,
+         "priceChange": 8.4,
+         "marketCap": 736000,
+         "marketCapChange": 6.216,
+         "liquidity": "85.5K",
+         "volume": "7.16K",
+         "txns": 67,
+         "buys": 35,
+         "sells": 32,
+         "age": "1h",
+         "holders": 2108,
+         "top10": 715,
+         "security": {
+            "noMint": true,
+            "hasBlacklist": true,
+            "isBurnt": true,
+            "top10Percentage": 12.55,
+            "devPercentage": 4.83
+         }
+      }
+   ],
+   "top": [],
+   "surge": [],
+   "dexscreener": []
+}
