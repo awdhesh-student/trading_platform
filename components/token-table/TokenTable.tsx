@@ -21,7 +21,7 @@ export default function TokenTable() {
   const filters = useSelector((state: RootState) => state.table.filters);
   const [rows, setRows] = useState(() => {
     // Parse strings "12.3K" -> 12300 for initial numeric manipulations
-    return (TAB_DATA.trending || []).map((row) => ({
+    return (TAB_DATA.discover.trending || []).map((row) => ({
       ...row,
       liquidity: parseK(row.liquidity),
       volume: parseK(row.volume),

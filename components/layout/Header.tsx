@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link"; // Assuming next/link is available
+import { usePathname } from "next/navigation";
 import {
   Search,
   Star,
@@ -30,6 +31,7 @@ const NAV_ITEMS = [
 ];
 
 export default function Header() {
+  const pathname = usePathname();
   const [startIndex, setStartIndex] = useState(0);
   const ITEMS_PER_VIEW = 6;
 
@@ -87,20 +89,29 @@ export default function Header() {
               )}
 
               <div className="flex items-center gap-1 overflow-hidden">
-                {visibleItems.map((item) => (
-                  <Link
-                    key={item}
-                    href={item === "Discover" ? "/" : `/${item.toLowerCase()}`}
-                    className={cn(
-                      "px-3 py-1.5 text-sm font-semibold transition-colors whitespace-nowrap rounded-md",
-                      item === "Discover"
-                        ? "text-[#526FFF] hover:text-[#4259cc]"
-                        : "text-white hover:bg-white/5"
-                    )}
-                  >
-                    {item}
-                  </Link>
-                ))}
+                {visibleItems.map((item) => {
+                  const href =
+                    item === "Discover" ? "/" : `/${item.toLowerCase()}`;
+                  // Simple active check. adjust if needed for nested routes
+                  const isActive = pathname === href;
+
+                  return (
+                    <Link
+                      key={item}
+                      href={href}
+                      className={cn(
+                        "px-3 py-1.5 text-sm font-semibold transition-colors whitespace-nowrap rounded-md",
+                        isActive
+                          ? "text-[#526FFF] bg-white/5"
+                          : item === "Discover" // Keep Discover special text color if desirable, or override when active
+                          ? "text-[#526FFF] hover:text-[#4259cc]"
+                          : "text-white hover:bg-white/5"
+                      )}
+                    >
+                      {item}
+                    </Link>
+                  );
+                })}
               </div>
             </nav>
             <div className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-[#0B0E11] to-transparent pointer-events-none" />

@@ -1,132 +1,550 @@
 {
-   "trending": [
-      {
-         "id": "ducky",
-         "name": "Ducky",
-         "symbol": "Ducky",
-         "image": "/ducky.png",
-         "price": 0.000012,
-         "priceChange": 4.21,
-         "marketCap": 9640,
-         "marketCapChange": -57.6,
-         "liquidity": "12.3K",
-         "volume": "8.04K",
-         "txns": 83,
-         "buys": 40,
-         "sells": 43,
-         "age": "10m",
-         "holders": 73,
-         "top10": 45,
-         "security": {
-            "noMint": true,
-            "hasBlacklist": false,
-            "isBurnt": true,
-            "top10Percentage": 23.41,
-            "devPercentage": 0
+   "discover": {
+      "trending": [
+         {
+            "id": "ducky",
+            "name": "Ducky",
+            "symbol": "Ducky",
+            "image": "/ducky.png",
+            "price": 0.000012,
+            "priceChange": 4.21,
+            "marketCap": 9640,
+            "marketCapChange": -57.6,
+            "liquidity": "12.3K",
+            "volume": "8.04K",
+            "txns": 83,
+            "buys": 40,
+            "sells": 43,
+            "age": "10m",
+            "holders": 73,
+            "top10": 45,
+            "security": {
+               "noMint": true,
+               "hasBlacklist": false,
+               "isBurnt": true,
+               "top10Percentage": 23.41,
+               "devPercentage": 0
+            }
+         },
+         {
+            "id": "dino",
+            "name": "DINO",
+            "symbol": "DINO By Jaso...",
+            "image": "/dino.png",
+            "price": 0.0054,
+            "priceChange": 12.5,
+            "marketCap": 115000,
+            "marketCapChange": 6.177,
+            "liquidity": "32K",
+            "volume": "5.38K",
+            "txns": 79,
+            "buys": 48,
+            "sells": 31,
+            "age": "40m",
+            "holders": 610,
+            "top10": 198,
+            "security": {
+               "noMint": true,
+               "hasBlacklist": true,
+               "isBurnt": true,
+               "top10Percentage": 22.4,
+               "devPercentage": 5.35
+            }
+         },
+         {
+            "id": "singularity",
+            "name": "S-IO",
+            "symbol": "Singularity.io",
+            "image": "/sio.png",
+            "price": 0.0012,
+            "priceChange": -2.3,
+            "marketCap": 15200,
+            "marketCapChange": -26,
+            "liquidity": "11.7K",
+            "volume": "5.53K",
+            "txns": 75,
+            "buys": 44,
+            "sells": 31,
+            "age": "1mo",
+            "holders": 151,
+            "top10": 36,
+            "security": {
+               "noMint": true,
+               "hasBlacklist": false,
+               "isBurnt": true,
+               "top10Percentage": 29.13,
+               "devPercentage": 2.37
+            }
+         },
+         {
+            "id": "crocky",
+            "name": "Crocky",
+            "symbol": "Crocky",
+            "image": "/crocky.png",
+            "price": 0.00009,
+            "priceChange": -5.1,
+            "marketCap": 10300,
+            "marketCapChange": -19.1,
+            "liquidity": "12.9K",
+            "volume": "4.46K",
+            "txns": 72,
+            "buys": 38,
+            "sells": 34,
+            "age": "4m",
+            "holders": 124,
+            "top10": 76,
+            "security": {
+               "noMint": true,
+               "hasBlacklist": false,
+               "isBurnt": true,
+               "top10Percentage": 20.12,
+               "devPercentage": 0.04
+            }
+         },
+         {
+            "id": "ducky2",
+            "name": "DUCKY",
+            "symbol": "Ducky",
+            "image": "/ducky2.png",
+            "price": 0.00032,
+            "priceChange": 8.4,
+            "marketCap": 736000,
+            "marketCapChange": 6.216,
+            "liquidity": "85.5K",
+            "volume": "7.16K",
+            "txns": 67,
+            "buys": 35,
+            "sells": 32,
+            "age": "1h",
+            "holders": 2108,
+            "top10": 715,
+            "security": {
+               "noMint": true,
+               "hasBlacklist": true,
+               "isBurnt": true,
+               "top10Percentage": 12.55,
+               "devPercentage": 4.83
+            }
          }
-      },
-      {
-         "id": "dino",
-         "name": "DINO",
-         "symbol": "DINO By Jaso...",
-         "image": "/dino.png",
-         "price": 0.0054,
-         "priceChange": 12.5,
-         "marketCap": 115000,
-         "marketCapChange": 6.177,
-         "liquidity": "32K",
-         "volume": "5.38K",
-         "txns": 79,
-         "buys": 48,
-         "sells": 31,
-         "age": "40m",
-         "holders": 610,
-         "top10": 198,
-         "security": {
-            "noMint": true,
-            "hasBlacklist": true,
-            "isBurnt": true,
-            "top10Percentage": 22.4,
-            "devPercentage": 5.35
+      ],
+      "top": [],
+      "surge": [],
+      "dexscreener": []
+   },
+   "pulse": {
+      "newPairs": [
+         {
+            "id": "1",
+            "name": "Q1",
+            "symbol": "Q1",
+            "timeAgo": "0s",
+            "marketCap": "$3.8K",
+            "volume": "$147",
+            "txCount": 88,
+            "stats": [
+               {
+                  "label": "5m",
+                  "value": "4%",
+                  "isPositive": true
+               },
+               {
+                  "label": "1h",
+                  "value": "3%",
+                  "isPositive": true
+               },
+               {
+                  "label": "6h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "24h",
+                  "value": "0%",
+                  "isPositive": true
+               }
+            ],
+            "actions": {
+               "solValue": "0"
+            }
+         },
+         {
+            "id": "2",
+            "name": "YUP \"Yup\"",
+            "symbol": "YUP",
+            "timeAgo": "0s",
+            "marketCap": "$6.12K",
+            "volume": "$22",
+            "txCount": 1,
+            "stats": [
+               {
+                  "label": "5m",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "1h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "6h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "24h",
+                  "value": "0%",
+                  "isPositive": true
+               }
+            ],
+            "actions": {
+               "solValue": "0"
+            }
+         },
+         {
+            "id": "3",
+            "name": "NVIDIA AI",
+            "symbol": "NVIDIA AI",
+            "timeAgo": "0s",
+            "marketCap": "$664K",
+            "volume": "$18K",
+            "txCount": 14,
+            "stats": [
+               {
+                  "label": "5m",
+                  "value": "19%",
+                  "isPositive": false
+               },
+               {
+                  "label": "1h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "6h",
+                  "value": "19%",
+                  "isPositive": false
+               },
+               {
+                  "label": "24h",
+                  "value": "0%",
+                  "isPositive": true
+               }
+            ],
+            "actions": {
+               "solValue": "0"
+            }
+         },
+         {
+            "id": "4",
+            "name": "QiQi",
+            "symbol": "2026 Year Of The Horse",
+            "timeAgo": "0s",
+            "marketCap": "$3.76K",
+            "volume": "$127",
+            "txCount": 2,
+            "stats": [
+               {
+                  "label": "5m",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "1h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "6h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "24h",
+                  "value": "0%",
+                  "isPositive": true
+               }
+            ],
+            "actions": {
+               "solValue": "0"
+            }
          }
-      },
-      {
-         "id": "singularity",
-         "name": "S-IO",
-         "symbol": "Singularity.io",
-         "image": "/sio.png",
-         "price": 0.0012,
-         "priceChange": -2.3,
-         "marketCap": 15200,
-         "marketCapChange": -26,
-         "liquidity": "11.7K",
-         "volume": "5.53K",
-         "txns": 75,
-         "buys": 44,
-         "sells": 31,
-         "age": "1mo",
-         "holders": 151,
-         "top10": 36,
-         "security": {
-            "noMint": true,
-            "hasBlacklist": false,
-            "isBurnt": true,
-            "top10Percentage": 29.13,
-            "devPercentage": 2.37
+      ],
+      "finalStretch": [
+         {
+            "id": "fs1",
+            "name": "EIG",
+            "symbol": "EIG Ponzi",
+            "timeAgo": "10h",
+            "marketCap": "$4.75K",
+            "volume": "$11K",
+            "txCount": 9,
+            "stats": [
+               {
+                  "label": "5m",
+                  "value": "4%",
+                  "isPositive": true
+               },
+               {
+                  "label": "1h",
+                  "value": "3%",
+                  "isPositive": true
+               },
+               {
+                  "label": "6h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "24h",
+                  "value": "0%",
+                  "isPositive": true
+               }
+            ],
+            "actions": {
+               "solValue": "0"
+            }
+         },
+         {
+            "id": "fs2",
+            "name": "TLDICK",
+            "symbol": "Fallos Traffic Light",
+            "timeAgo": "5d",
+            "marketCap": "$4.36K",
+            "volume": "$2K",
+            "txCount": 12,
+            "stats": [
+               {
+                  "label": "5m",
+                  "value": "89%",
+                  "isPositive": false
+               },
+               {
+                  "label": "1h",
+                  "value": "1%",
+                  "isPositive": true
+               },
+               {
+                  "label": "6h",
+                  "value": "1%",
+                  "isPositive": true
+               },
+               {
+                  "label": "24h",
+                  "value": "16%",
+                  "isPositive": false
+               }
+            ],
+            "actions": {
+               "solValue": "0"
+            }
+         },
+         {
+            "id": "fs3",
+            "name": "NVIDIA AI",
+            "symbol": "NVIDIA AI",
+            "timeAgo": "0s",
+            "marketCap": "$664K",
+            "volume": "$18K",
+            "txCount": 14,
+            "stats": [
+               {
+                  "label": "5m",
+                  "value": "19%",
+                  "isPositive": false
+               },
+               {
+                  "label": "1h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "6h",
+                  "value": "19%",
+                  "isPositive": false
+               },
+               {
+                  "label": "24h",
+                  "value": "0%",
+                  "isPositive": true
+               }
+            ],
+            "actions": {
+               "solValue": "0"
+            }
+         },
+         {
+            "id": "fs4",
+            "name": "Red Bull",
+            "symbol": "RedBull Official Token",
+            "timeAgo": "1d",
+            "marketCap": "$12.6K",
+            "volume": "$23K",
+            "txCount": 0,
+            "stats": [
+               {
+                  "label": "5m",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "1h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "6h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "24h",
+                  "value": "0%",
+                  "isPositive": true
+               }
+            ],
+            "actions": {
+               "solValue": "0"
+            }
          }
-      },
-      {
-         "id": "crocky",
-         "name": "Crocky",
-         "symbol": "Crocky",
-         "image": "/crocky.png",
-         "price": 0.00009,
-         "priceChange": -5.1,
-         "marketCap": 10300,
-         "marketCapChange": -19.1,
-         "liquidity": "12.9K",
-         "volume": "4.46K",
-         "txns": 72,
-         "buys": 38,
-         "sells": 34,
-         "age": "4m",
-         "holders": 124,
-         "top10": 76,
-         "security": {
-            "noMint": true,
-            "hasBlacklist": false,
-            "isBurnt": true,
-            "top10Percentage": 20.12,
-            "devPercentage": 0.04
+      ],
+      "migrated": [
+         {
+            "id": "m1",
+            "name": "HORS",
+            "symbol": "HORSECOIN",
+            "timeAgo": "0s",
+            "marketCap": "$1.23M",
+            "volume": "$25K",
+            "txCount": 142,
+            "stats": [
+               {
+                  "label": "5m",
+                  "value": "100%",
+                  "isPositive": false
+               },
+               {
+                  "label": "1h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "6h",
+                  "value": "20%",
+                  "isPositive": false
+               },
+               {
+                  "label": "24h",
+                  "value": "0%",
+                  "isPositive": true
+               }
+            ],
+            "actions": {
+               "solValue": "0"
+            }
+         },
+         {
+            "id": "m2",
+            "name": "PMPRNS",
+            "symbol": "PUMPRUNNERS",
+            "timeAgo": "0s",
+            "marketCap": "$47.1K",
+            "volume": "$11K",
+            "txCount": 22,
+            "stats": [
+               {
+                  "label": "5m",
+                  "value": "75%",
+                  "isPositive": false
+               },
+               {
+                  "label": "1h",
+                  "value": "75%",
+                  "isPositive": false
+               },
+               {
+                  "label": "6h",
+                  "value": "75%",
+                  "isPositive": false
+               },
+               {
+                  "label": "24h",
+                  "value": "0%",
+                  "isPositive": true
+               }
+            ],
+            "actions": {
+               "solValue": "0"
+            }
+         },
+         {
+            "id": "m3",
+            "name": "BurnHorse",
+            "symbol": "Burn Horse",
+            "timeAgo": "0s",
+            "marketCap": "$21.4K",
+            "volume": "$7K",
+            "txCount": 105,
+            "stats": [
+               {
+                  "label": "5m",
+                  "value": "23%",
+                  "isPositive": false
+               },
+               {
+                  "label": "1h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "6h",
+                  "value": "75%",
+                  "isPositive": false
+               },
+               {
+                  "label": "24h",
+                  "value": "57%",
+                  "isPositive": false
+               }
+            ],
+            "actions": {
+               "solValue": "0"
+            }
+         },
+         {
+            "id": "m4",
+            "name": "HORSESHIT",
+            "symbol": "7 Figure Horse Shit",
+            "timeAgo": "6s",
+            "marketCap": "$50.3K",
+            "volume": "$15K",
+            "txCount": 87,
+            "stats": [
+               {
+                  "label": "5m",
+                  "value": "4%",
+                  "isPositive": true
+               },
+               {
+                  "label": "1h",
+                  "value": "3%",
+                  "isPositive": true
+               },
+               {
+                  "label": "6h",
+                  "value": "0%",
+                  "isPositive": true
+               },
+               {
+                  "label": "24h",
+                  "value": "0%",
+                  "isPositive": true
+               }
+            ],
+            "actions": {
+               "solValue": "0"
+            }
          }
-      },
-      {
-         "id": "ducky2",
-         "name": "DUCKY",
-         "symbol": "Ducky",
-         "image": "/ducky2.png",
-         "price": 0.00032,
-         "priceChange": 8.4,
-         "marketCap": 736000,
-         "marketCapChange": 6.216,
-         "liquidity": "85.5K",
-         "volume": "7.16K",
-         "txns": 67,
-         "buys": 35,
-         "sells": 32,
-         "age": "1h",
-         "holders": 2108,
-         "top10": 715,
-         "security": {
-            "noMint": true,
-            "hasBlacklist": true,
-            "isBurnt": true,
-            "top10Percentage": 12.55,
-            "devPercentage": 4.83
-         }
-      }
-   ],
-   "top": [],
-   "surge": [],
-   "dexscreener": []
+      ]
+   }
 }
