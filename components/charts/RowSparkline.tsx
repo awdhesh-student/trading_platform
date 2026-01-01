@@ -10,9 +10,21 @@ import {
   CategoryScale,
 } from "chart.js";
 
-Chart.register(LineController, LineElement, LinearScale, PointElement, CategoryScale);
+Chart.register(
+  LineController,
+  LineElement,
+  LinearScale,
+  PointElement,
+  CategoryScale
+);
 
-function RowSparkline({ data }: { data: number[] }) {
+function RowSparkline({
+  data,
+  color = "#22c55e",
+}: {
+  data: number[];
+  color?: string;
+}) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const chartRef = useRef<Chart | null>(null);
 
@@ -36,7 +48,7 @@ function RowSparkline({ data }: { data: number[] }) {
         datasets: [
           {
             data,
-            borderColor: "#22c55e",
+            borderColor: color,
             borderWidth: 1.5,
             tension: 0.3,
             pointRadius: 0,
@@ -62,7 +74,7 @@ function RowSparkline({ data }: { data: number[] }) {
       chartRef.current?.destroy();
       chartRef.current = null;
     };
-  }, [data]);
+  }, [data, color]);
 
   // ✅ CONDITIONAL UI AFTER HOOKS
   if (!data || data.length < 2) {
